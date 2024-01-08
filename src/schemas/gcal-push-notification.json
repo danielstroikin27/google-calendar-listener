@@ -1,0 +1,32 @@
+{
+    "$id": "google-calendar-listener/gcal-push-notification.json",
+    "type": "object",
+    "required": [
+      "id",
+      "kind",
+      "resourceId",
+      "resourceUri",
+      "token",
+      "expiration"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "kind": {
+        "type": "string"
+      },
+      "resourceId": {
+        "type": "string"
+      },
+      "resourceUri": {
+        "type": "string"
+      },
+      "token": {
+        "type": "string"
+      },
+      "expiration": {
+        "type": "number"
+      }
+  }
+}
